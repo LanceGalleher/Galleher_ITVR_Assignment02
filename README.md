@@ -1,5 +1,4 @@
-# GoogleCardboardSampleProject
-Google Cardboard Sample Project Introduction to Virtual Reality at New College Of Florida
+# Galleher ITVR:Assignment 02
 
 # UNITY VERSION
 6000.3.2f1
