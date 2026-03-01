@@ -187,8 +187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5aa2ef342c05fc428abc6345d83581b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 223643839}
   infoText: {fileID: 63527945}
+  endText: {fileID: 0}
 --- !u!114 &63527945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,7 +1157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
-  infoText: {fileID: 0}
+  infoText: {fileID: 63527945}
+  endText: {fileID: 1596268270}
 --- !u!1 &228152555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1179546363165374, guid: 7d9bdc9846740b74cacf169d3e13cd3f,
@@ -1268,6 +1270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &233132156 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519678567853810, guid: e20b8b783289f644684f9e94fddbd56f,
@@ -1715,6 +1718,7 @@ RectTransform:
   m_Children:
   - {fileID: 223643838}
   - {fileID: 63527943}
+  - {fileID: 1596268268}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2182,6 +2186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &357052528 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519678567853810, guid: e20b8b783289f644684f9e94fddbd56f,
@@ -2654,7 +2659,19 @@ MonoBehaviour:
         m_CallState: 2
   OnButtonPressedDuringHover:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 400192512}
+        m_TargetAssemblyTypeName: PortalUnlock, Assembly-CSharp
+        m_MethodName: TryEnterPortal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &400192512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2996,6 +3013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!1 &476904208 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1011373775253534, guid: cac530be51fa614458a02884bfe6e5bf,
@@ -3107,6 +3125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!1001 &481805734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4442,6 +4461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!1 &761284914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4957,6 +4977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &825479361 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1109807306562387009, guid: f2ef2020063b0a0489eb5cceb5eed127,
@@ -5377,6 +5398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &911036337 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5fd94bba744a8c44991c32247651bb99,
@@ -5610,6 +5632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &938443871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519678567853810, guid: e20b8b783289f644684f9e94fddbd56f,
@@ -7010,6 +7033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &1146367505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7570484210492634140, guid: 5a84747fa7b715147bbb89c8b55e3bcc,
@@ -8535,6 +8559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
   scoreText: {fileID: 223643839}
   infoText: {fileID: 0}
+  endText: {fileID: 0}
 --- !u!4 &1475144363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a9dd38c484b428f449090e885042f887,
@@ -9165,6 +9190,102 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 457431497}
   m_SourcePrefab: {fileID: 100100000, guid: 75399c915872efb43ac59982ec88d12a, type: 3}
+--- !u!1 &1596268267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596268268}
+  - component: {fileID: 1596268271}
+  - component: {fileID: 1596268270}
+  - component: {fileID: 1596268269}
+  m_Layer: 5
+  m_Name: endText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1596268268
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596268267}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 323557543}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000020981, y: -220}
+  m_SizeDelta: {x: 1200.2911, y: 137.9483}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1596268269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596268267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5aa2ef342c05fc428abc6345d83581b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
+  scoreText: {fileID: 223643839}
+  infoText: {fileID: 63527945}
+  endText: {fileID: 1596268270}
+--- !u!114 &1596268270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596268267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 39
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 99
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Perfect! You've found all the pieces - now lets get in the portal and go
+    home!!
+--- !u!222 &1596268271
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596268267}
+  m_CullTransparentMesh: 1
 --- !u!4 &1607123305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5fd94bba744a8c44991c32247651bb99,

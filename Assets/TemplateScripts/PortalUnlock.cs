@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PortalUnlock : MonoBehaviour
 {
@@ -31,5 +32,18 @@ public class PortalUnlock : MonoBehaviour
         {
             portalLight.enabled = true;
         }
+    }
+
+    public void TryEnterPortal()
+    {
+        if (!isUnlocked) return;
+
+        EndGame();
+    }
+
+    void EndGame()
+    {
+        Debug.Log("Game Over!");
+        Application.Quit();
     }
 }
