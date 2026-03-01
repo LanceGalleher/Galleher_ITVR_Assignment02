@@ -5,6 +5,7 @@ public class PortalUnlock : MonoBehaviour
 {
     public int requiredScore = 10;
     public Light portalLight;
+    public AudioSource portalAudio;
 
     private bool isUnlocked = false;
 
@@ -31,6 +32,11 @@ public class PortalUnlock : MonoBehaviour
         if (portalLight != null)
         {
             portalLight.enabled = true;
+        }
+
+        if (portalAudio != null)
+        {
+            portalAudio.Play();
         }
     }
 
